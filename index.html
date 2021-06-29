@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src='./dist/main.js' defer></script>
+<style>
+  body {
+    font-family: verdana;
+  }
+  #root > div {
+    display: flex;
+  }
+
+  #root > div > section {
+    flex: 1;
+  }
+  table {
+    width: 100%;
+  }
+  th {
+    text-align: left;
+  }
+  label {
+    border: solid 1px black;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+  input[disabled] {
+    background-color: red;
+    font-weight: bold;
+    display: none;
+  }
+  .facets-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .facets-container > * {
+    margin: 0.25rem;
+  }
+</style>
+  </head>
+  <body>
+    <div id='root'></div>
+  </body>
+</html>
